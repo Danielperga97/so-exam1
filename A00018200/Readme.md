@@ -6,12 +6,12 @@
 
 **Email:**  danielperga97@outlook.com 
 
-**Descarga y verificacion Debian 9**
+## Descarga y verificacion Debian 9
 
 Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen, en este caso aprovechando la siguiente utilidad
 
 
-**Proceso de instalacion**
+## Proceso de instalacion
 
 1. Creamos nuestra maquina virtual y le asignamos valores de nombre, tamano de memoria, creamos un disco duro virtual del tipo deseado,y le asignamos reservados dinamico ofijo segun nuestras necesidades.
 
@@ -23,7 +23,7 @@ Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen, en este cas
 
 
 
-**Informacion del sistema**
+##Informacion del sistema
 
 Mediante el comando Uname podemos obtener una gran cantidad de informacion acerca del sistema. 
 
@@ -62,7 +62,7 @@ uname -o
 GNU/Linux
 ``` 
 
-**Configuracion SSH y acceso al sistema**
+## Configuracion SSH y acceso al sistema
 
 Para una conexion SSH primero debemos configurar una interfaz tipo puente en las opciones de configuracion de red de nuestra maquina virtual e instalamos openssh-server. Posteriormente nos dirigimos a putty(en el caso de windows) y realizamos una configuracion como la siguiente: 
 
@@ -70,7 +70,22 @@ Para una conexion SSH primero debemos configurar una interfaz tipo puente en las
 
 Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puerto 22 e introducimos nuestros datos de inicio de sesion.
 
-**Exportando la Maquina Virtual**
+## Instalando GIT y TIG
+Para instalar Git y Tig empleamos los comandos update y upgrade para asegurarno de tener todos los paquetes necesarios al dia, y posteriormente los instalamos:
+```
+apt-get update
+apt-get upgrade
+apt-get install git-core
+apt-get install tig
+```
++![](capturas/git-tig.png)
+
+Historial de commits desde tig: 
+
++![](capturas/commit-history.png)
+
+
+## Exportando la Maquina Virtual
 1. Archivo> exportar servicio virtualizado 
 
 +![](capturas/exp1.png)
@@ -85,7 +100,7 @@ Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puer
 
 +![](capturas/exp4.PNG)
 
-**Importando la Maquina Virtual**
+## Importando la Maquina Virtual
 
 1. Archivo> Importar servicio virtualizado
 
@@ -102,7 +117,7 @@ Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puer
 +![](capturas/imp4.PNG)
 
 
-**Comparativa CentOS 7 vs Debian 9**
+## Comparativa CentOS 7 vs Debian 9
 
 **Caracteristica** | **CentOS 7** | **Debian 9**
 ---|---|---
