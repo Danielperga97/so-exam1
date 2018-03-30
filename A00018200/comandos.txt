@@ -1,0 +1,37 @@
+    1  apt-get install openssh-server
+    2  su daniel
+    3  vi /etc/apt/sources.list
+    4  apt-get upgrade
+    5  apt-get update
+    6  apt-get install git-core
+    7  apt-get install tig
+    8  ls
+    9  cd ..
+   10  su daniel
+   11  apt-get update
+   12  apt-get upgrade
+   13  apt-get install git-core
+   14  apt-get install git-core
+   15  apt-get install tig
+   16  apt-get update
+   17  apt-get upgrade
+   18  apt-get install git-core
+   19  apt-get install tig
+   20  uname
+   21  uname -s
+   22  uname -n
+   23  uname -a
+   24  uname -m
+   25  uname -r
+   26  uname -v
+   27  uname -p
+   28  history > comandos.txt
+   29  cd ..
+   30  ls
+   31  cd tmp
+   32  history > comandos.txt
+   33  ls
+   34  cd so-exam1/
+   35  cd A00018200/
+   36  ls
+   37  history > comandos.txt
