@@ -6,9 +6,12 @@
 
 **Email:**  danielperga97@outlook.com 
 
-## Descarga y verificacion Debian 9
+## Descarga y verificacion de integridad Debian 9
 
-Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen, en este caso aprovechando la siguiente utilidad
+Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen. Para ello nos dirigimos al siguiente enlace: http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/MD5SUMS, obtenemos el que corresponda a nuestra imagen y lo comparamos con el generado por nuestra utilidad.
+
++![](capturas/integridad.PNG)
+
 
 
 ## Proceso de instalacion
