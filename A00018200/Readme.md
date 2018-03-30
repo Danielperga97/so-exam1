@@ -134,3 +134,7 @@ Popularidad | CentOS es usado en cerca de 3,808,897 websites | Debian es usado e
 Peso(version mas sencilla) | ronda los 500 MB | ronda los 300 MB
 fecha de lanzamiento | junio 2014 |junio 2017
 Nucleos | Centos solo es compatible con el nucleo de linux | debian es compatible con el nucleo de linux y kfreebsd, ademas ofrece soporte no oficial para gnu Hurd
+
+
+## URL Repositorio Github
+https://github.com/Danielperga97/so-exam1
