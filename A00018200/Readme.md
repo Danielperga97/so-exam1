@@ -1,7 +1,8 @@
-rcial 1 Sistemas Operativos
-**Nombre:**  Daniel Perez Garcia
-**Codigo:** A00018200
-**Email:** danielperga97@outlook.com
+#Parcial 1 Sistemas Operativos
+
+**Nombre:**  Daniel Perez Garcia 
+**Codigo:** A00018200 
+**Email:** danielperga97@outlook.com 
 
 **Descarga y verificacion Debian 9**
 
