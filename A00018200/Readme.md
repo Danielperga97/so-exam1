@@ -1,26 +1,64 @@
-#Parcial 1 Sistemas Operativos
+# Parcial 1 Sistemas Operativos
 
-**Nombre:**  Daniel Perez Garcia 
-**Codigo:** A00018200 
-**Email:** danielperga97@outlook.com 
+**Nombre:** Daniel Perez Garcia 
+**Codigo:** A00018200
+**Email:**  danielperga97@outlook.com 
 
 **Descarga y verificacion Debian 9**
 
-Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen, en este cas
-o aprovechando la siguiente utilidad
+Descargamos nuestra imagen Iso y verificamos el sumMD5 de la imagen, en este caso aprovechando la siguiente utilidad
 
 
 **Proceso de instalacion**
 
 1. Creamos nuestra maquina virtual y le asignamos valores de nombre, tamano de memoria, creamos un disco duro virtual del tipo deseado,y le asignamos reservados dinamico ofijo segun nuestras necesidades.
 
-2.Una vez creada nos dirigimos a configuracion,almacenamiento,controlador,nidad optica, y seleccionamos nuestra imagen ISO.
+2. Una vez creada nos dirigimos a configuracion,almacenamiento,controlador,nidad optica, y seleccionamos nuestra imagen ISO.
 
 3. Arrancamos nuestra maquina, seleccionamos graphic install y configruammos parametros de idioma,pais,region, etc
 
 4. Seleccionamos los paquetes que desamos intalar y concluimos la instalacion
 
 
+
+**Informacion del sistema**
+
+Mediante el comando Uname podemos obtener una gran cantidad de informacion acerca del sistema. 
+
+```
+uname
+Linux
+```
+nombre del kernel
+```
+uname -s
+Linux
+```
+nombre del sistema
+```
+uname -n
+Debian
+```
+version release del kernel 
+```
+Uname -r 
+4.9.0-6-amd64
+```
+version del kernel
+```
+uname -v
+#1 smp debian 4.9.82-1+deb9u3(2018-03-02)
+``` 
+arquitectura de la maquina
+```
+uname -m
+x86_64
+```
+Sistema operativo
+``` 
+uname -o 
+GNU/Linux
+``` 
 
 **Comparativa CentOS 7 vs Debian 9**
 
