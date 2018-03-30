@@ -60,6 +60,30 @@ uname -o
 GNU/Linux
 ``` 
 
+**Configuracion SSH y acceso al sistema**
+
+Para una conexion SSH primero debemos configurar una interfaz tipo puente en las opciones de configuracion de red de nuestra maquina viirtual e instalamos openssh-server. Posteriormente nos dirigimos a putty y realizamos una configuracion como la siguiente: 
+
++![](capturas/putty.PNG)
+
+Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puerto 22 e introducimos nuestros datos de inicio de sesion.
+
+**Exportande la Maquina Virtual**
+1. Archivo> exportar servicio virtualizado 
+
++![](capturas/exp1.PNG)
+
+2. seleccionamos la maquina
+
++![](capturas/exp2.PNG)
+
+3. configuramos sus valores y la exportamos.
+
++![](capturas/exp3.PNG)
+
++![](capturas/exp4.PNG)
+
+
 **Comparativa CentOS 7 vs Debian 9**
 
 **Caracteristica** | **CentOS 7** | **Debian 9**
@@ -74,21 +98,3 @@ Popularidad | CentOS es usado en cerca de 3,808,897 websites | DEbian es usado e
 Peso(version mas sencilla) | ronda los 500 MB | ronda los 300 MB
 fecha de lanzamiento | junio 2014 |junio 2017
 Nucleos | Centos solo es compatible con el nucleo de linux | debian es compatible con el nucleo de linux y kfreebsd, ademas ofrece soporte no oficial para gnu Hurd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
