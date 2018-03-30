@@ -1,7 +1,9 @@
 # Parcial 1 Sistemas Operativos
 
 **Nombre:** Daniel Perez Garcia 
+
 **Codigo:** A00018200
+
 **Email:**  danielperga97@outlook.com 
 
 **Descarga y verificacion Debian 9**
@@ -62,16 +64,16 @@ GNU/Linux
 
 **Configuracion SSH y acceso al sistema**
 
-Para una conexion SSH primero debemos configurar una interfaz tipo puente en las opciones de configuracion de red de nuestra maquina viirtual e instalamos openssh-server. Posteriormente nos dirigimos a putty y realizamos una configuracion como la siguiente: 
+Para una conexion SSH primero debemos configurar una interfaz tipo puente en las opciones de configuracion de red de nuestra maquina virtual e instalamos openssh-server. Posteriormente nos dirigimos a putty(en el caso de windows) y realizamos una configuracion como la siguiente: 
 
 +![](capturas/putty.PNG)
 
 Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puerto 22 e introducimos nuestros datos de inicio de sesion.
 
-**Exportande la Maquina Virtual**
+**Exportando la Maquina Virtual**
 1. Archivo> exportar servicio virtualizado 
 
-+![](capturas/exp1.PNG)
++![](capturas/exp1.png)
 
 2. seleccionamos la maquina
 
@@ -82,6 +84,22 @@ Introducimos la direccion Ip, seleccionamos protocolo SSH, seleccionamos el puer
 +![](capturas/exp3.PNG)
 
 +![](capturas/exp4.PNG)
+
+**Importando la Maquina Virtual**
+
+1. Archivo> Importar servicio virtualizado
+
++![](capturas/imp1.png)
+
+2.seleccionamos el archivo de la maquina virtual (.OVF)
+
++![](capturas/imp2.PNG)
+
+3. Seleccionamos las preferencias de configuracion y la importamos
+
++![](capturas/imp3.PNG)
+
++![](capturas/imp4.PNG)
 
 
 **Comparativa CentOS 7 vs Debian 9**
